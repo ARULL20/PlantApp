@@ -18,7 +18,7 @@ Camera Test
 
 Ambil Foto Dari Galeri
 
-![CameraPilihDariGaleri](https://github.com/user-attachments/assets/078e3fa5-d4c6-47ce-96ac-9d867777039d)
+![WhatsApp Image 2025-05-23 at 02 58 21_5144f67b](https://github.com/user-attachments/assets/9826ec0e-7256-4762-8e93-7dd8a2e01f5c)
 
 Peta Page
 
