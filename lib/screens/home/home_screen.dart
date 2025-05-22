@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
             elevation: 10,
             pinned: true,
             automaticallyImplyLeading: false,
-            backgroundColor: kPrimaryColor,
+            backgroundColor: const Color.fromARGB(255, 93, 3, 239),
             expandedHeight: 10,
             flexibleSpace: LayoutBuilder(
               builder: (context, constraints) {

@@ -21,7 +21,7 @@ class TitleWithMoreBtn extends StatelessWidget {
           const Spacer(),
           TextButton(
             style: TextButton.styleFrom(
-              backgroundColor: kPrimaryColor,
+              backgroundColor: const Color.fromARGB(255, 93, 3, 239),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20),
               ),
@@ -70,7 +70,7 @@ class TitleWithCustomUnderline extends StatelessWidget {
             child: Container(
               margin: const EdgeInsets.only(right: kDefaultPadding / 4),
               height: 7,
-              color: kPrimaryColor.withOpacity(0.2),
+              color: const Color.fromARGB(255, 93, 3, 239).withOpacity(0.2),
             ),
           ),
         ],

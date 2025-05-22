@@ -18,7 +18,7 @@ class Body extends StatelessWidget {
         children: <Widget>[
            HeaderWithProfileInfo(
             size: size,
-            name: '',
+            name: 'Zuharul Habib',
             address: 'jl.bantul ,yogyakarta',
           ),
           TitleWithMoreBtn(title: "Recomended", press: () {}),

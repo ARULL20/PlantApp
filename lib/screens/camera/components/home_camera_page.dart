@@ -72,8 +72,8 @@ class _HomePageState extends State<HomePage> {
                     label: const Text('Ambil Foto'),
                     onPressed: _takePicture,
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: KSecondaryColor,
-                      foregroundColor: Colors.deepPurple,
+                      backgroundColor: const Color.fromARGB(255, 93, 3, 239),
+                      foregroundColor: const Color.fromARGB(255, 249, 249, 250),
                     ),
                   ),
                 ),
@@ -84,8 +84,8 @@ class _HomePageState extends State<HomePage> {
                     label: const Text('Pilih dari Galeri'),
                     onPressed: _pickFromGallery,
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: KSecondaryColor,
-                      foregroundColor: Colors.deepPurple,
+                      backgroundColor: const Color.fromARGB(255, 93, 3, 239),
+                      foregroundColor: const Color.fromARGB(255, 249, 249, 250),
                     ),
                   ),
                 ),

@@ -16,7 +16,7 @@ class _HomeMapsPageState extends State<HomeMapsPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Pilih Lokasi"),
-        backgroundColor: Colors.green[700],
+        backgroundColor: const Color.fromARGB(255, 93, 3, 239),
       ),
       body: SafeArea(
         child: Padding(
@@ -25,7 +25,7 @@ class _HomeMapsPageState extends State<HomeMapsPage> {
             children: [
               ElevatedButton.icon(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green[600],
+                  backgroundColor: const Color.fromARGB(207, 255, 255, 255),
                   padding: const EdgeInsets.symmetric(
                       vertical: 12, horizontal: 20),
                   shape: RoundedRectangleBorder(
@@ -51,7 +51,7 @@ class _HomeMapsPageState extends State<HomeMapsPage> {
               alamatDipilih == null
                   ? const Text(
                       'Belum ada alamat yang dipilih',
-                      style: TextStyle(fontSize: 16, color: Colors.grey),
+                      style: TextStyle(fontSize: 16, color: Color.fromARGB(255, 253, 0, 0)),
                     )
                   : Card(
                       elevation: 4,

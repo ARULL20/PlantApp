@@ -14,9 +14,9 @@ class RecomendsPlants extends StatelessWidget {
         children: [
           RecomendPlantCard(
             image: "assets/images/image_1.png",
-            title: "Samantha",
-            country: "Russia",
-            price: 440,
+            title: "Michelle",
+            country: "Canada",
+            price: 350,
             press: () {
               Navigator.push(
                 context,
@@ -26,7 +26,7 @@ class RecomendsPlants extends StatelessWidget {
           ),
           RecomendPlantCard(
             image: "assets/images/image_2.png",
-            title: "Angelica",
+            title: "Berliana",
             country: "Russia",
             price: 440,
             press: () {
@@ -38,9 +38,9 @@ class RecomendsPlants extends StatelessWidget {
           ),
           RecomendPlantCard(
             image: "assets/images/image_3.png",
-            title: "Samantha",
-            country: "Russia",
-            price: 440,
+            title: "Lucy",
+            country: "German",
+            price: 250,
             press: () {},
           ),
         ],
@@ -84,16 +84,20 @@ class RecomendPlantCard extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.all(kDefaultPadding / 2),
               decoration: BoxDecoration(
-                color: Colors.white,
+                gradient: const LinearGradient(
+                  colors: [Color(0xFF6A11CB), Color(0xFF2575FC)],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
                 borderRadius: const BorderRadius.only(
-                  bottomLeft: Radius.circular(10),
-                  bottomRight: Radius.circular(10),
+                  bottomLeft: Radius.circular(16),
+                  bottomRight: Radius.circular(16),
                 ),
                 boxShadow: [
                   BoxShadow(
                     offset: const Offset(0, 10),
-                    blurRadius: 50,
-                    color: kPrimaryColor.withOpacity(0.23),
+                    blurRadius: 30,
+                    color: const Color(0xFF6A11CB).withOpacity(0.3),
                   ),
                 ],
               ),
@@ -104,12 +108,16 @@ class RecomendPlantCard extends StatelessWidget {
                       children: [
                         TextSpan(
                           text: "$title\n".toUpperCase(),
-                          style: Theme.of(context).textTheme.labelLarge,
+                          style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),
                         ),
                         TextSpan(
                           text: country.toUpperCase(),
-                          style: TextStyle(
-                            color: kPrimaryColor.withOpacity(0.5),
+                          style: const TextStyle(
+                            color: Colors.white70,
+                            fontStyle: FontStyle.italic,
                           ),
                         ),
                       ],
@@ -121,7 +129,7 @@ class RecomendPlantCard extends StatelessWidget {
                     style: Theme.of(context)
                         .textTheme
                         .labelLarge
-                        ?.copyWith(color: kPrimaryColor),
+                        ?.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),

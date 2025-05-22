@@ -8,9 +8,9 @@ import '../constants.dart';
 class MyBottomNavBar extends StatelessWidget {
   final int currentIndex;
   const MyBottomNavBar({
-    Key? key,
+    super.key,
     required this.currentIndex,
-  }) : super(key: key);
+  });
 
   void _navigate(BuildContext context, int index) {
     if (index == currentIndex) return;
@@ -63,7 +63,7 @@ class MyBottomNavBar extends StatelessWidget {
           BoxShadow(
             offset: const Offset(0, -1),
             blurRadius: 20,
-            color: kPrimaryColor.withOpacity(0.2),
+            color: const Color.fromARGB(255, 93, 3, 239).withOpacity(0.2),
           ),
         ],
       ),
@@ -95,7 +95,7 @@ class MyBottomNavBar extends StatelessWidget {
                       child: SvgPicture.asset(
                         icons[index],
                         height: 24,
-                        color: isActive ? kPrimaryColor : Colors.grey,
+                        color: isActive ? const Color.fromARGB(255, 93, 3, 239) : Colors.grey,
                       ),
                     ),
                   ],
