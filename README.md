@@ -1,16 +1,19 @@
-# plantapp
+## PLAN APP
 
-A new Flutter project.
+![Home Screen](https://github.com/user-attachments/assets/b68df0d5-cb18-4dc7-9956-0bc013937fcb)
 
-## Getting Started
+![HomeScreen2](https://github.com/user-attachments/assets/1eeeeeea-7632-4773-9886-c99439cc938a)
 
-This project is a starting point for a Flutter application.
+![CameraPage](https://github.com/user-attachments/assets/492c17b7-1cfd-4bd2-83d6-d73437e8af27)
 
-A few resources to get you started if this is your first Flutter project:
+![CameraTest](https://github.com/user-attachments/assets/64f51297-9f55-463d-a58a-1f0893122ba6)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![CameraPilihDariGaleri](https://github.com/user-attachments/assets/078e3fa5-d4c6-47ce-96ac-9d867777039d)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![AlamatPage](https://github.com/user-attachments/assets/e42b51c7-293f-4426-b591-7be1ab71a733)
+
+![PilihLokasiPeta](https://github.com/user-attachments/assets/2bd62227-b111-42b6-9ffc-408bfb100965)
+
+![PilihAtauHapusAlamat](https://github.com/user-attachments/assets/dfbc6c5b-b9c2-4590-9d2e-0be14fc9d663)
+
+![KonfirmasiHapusAlamat](https://github.com/user-attachments/assets/c89d39f2-d9fc-4425-9a4e-7f822b4f0e9b)
